@@ -1,2 +1,2 @@
 const indian = require('./index.js');
-indian.convert('28461', 'english', 'hindi');
+indian.convert('౭౩౧౫', 'telugu', 'english');

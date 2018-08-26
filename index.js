@@ -5,7 +5,10 @@ module.exports = {
         
         const numberMap = {
             english : "0123456789",
-            hindi : "०१२३४५६७८९"
+            gujarati: "૦૧૨૩૪૫૬૭૮૯",
+            hindi : "०१२३४५६७८९",
+            telugu: "౦౧౨౩౪౫౬౭౮౯"
+
         };
         var res = "", toLanguageString= numberMap[to];
         for(var i=0 ; i<number.length ; i++) {
