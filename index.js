@@ -4,9 +4,15 @@ module.exports = {
     convert: function (number, from, to) {
         
         const numberMap = {
+            bengali: "০১২৩৪৫৬৭৮৯",
             english : "0123456789",
             gujarati: "૦૧૨૩૪૫૬૭૮૯",
             hindi : "०१२३४५६७८९",
+            kannada: "೦೧೨೩೪೫೬೭೮೯",
+            konkani: "०१२३४५६७८९",
+            malayalam: "൦൧൨൩൪൫൬൭൮൯",
+            punjabi: "੦੧੨੩੪੫੬੭੮੯",
+            tamil: "௰௧௨௩௪௫௬௭௮௯",
             telugu: "౦౧౨౩౪౫౬౭౮౯"
 
         };
