@@ -2,7 +2,7 @@
 Quickly convert numbers between various languages including various Indian languages.
 
 ## Install
-npm install indian-numbers
+```npm install indian-numbers```
 
 ## Example
 The following function shows how to convert a number from Telugu to Hindi.
