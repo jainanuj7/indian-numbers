@@ -1,5 +1,5 @@
 const indian = require('./index.js');
-indian.convert('౭౩౧౫aaaaa', 'telugu', 'english', function(err, res) {
+indian.convert('౭౩౧౫', 'telugu', 'english', function(err, res) {
     if(err)
         console.log(err);
     else
